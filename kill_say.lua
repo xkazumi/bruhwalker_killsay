@@ -24,7 +24,7 @@ local last_sent = 0
 local function on_kda_updated(kill, death, assist)
 	if kill and menu:get_value(killsay_enabled) == 1 then
 		game:send_chat("/all " .. trash_talk_table[math.random(num_quotes)])
-    game:master_display()
+    game:mastery_display()
 	end
 end
 
