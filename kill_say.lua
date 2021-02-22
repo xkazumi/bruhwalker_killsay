@@ -3,7 +3,8 @@ killsay_enabled = menu:add_checkbox("enabled", killsay_category)
 
 local trash_talk_table = {
 	'?',
-	'ez'
+	'ez',
+	'gg ez'
 }
 
 local function get_table_length(data)
